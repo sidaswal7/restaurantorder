@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0b0b2c;
+    color: #d5d500;
+}
+form{
+    padding: 15px 10px;
+    margin-top: 40px;
+}
+input{
+    display: inline-block;  
+    margin-bottom: 5px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.delete-btn{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.tables{
+    display: flex;
+    justify-content: space-around;
+}
