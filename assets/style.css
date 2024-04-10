@@ -1,16 +1,22 @@
 body{
     margin: 0 auto;
-    text-align: center;
     background-color: #0b0b2c;
     color: #d5d500;
+    font-family: "Roboto", sans-serif;
 }
 form{
-    padding: 15px 10px;
+    padding: 20px;
     margin-top: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #F4F7F8;
+    color: black;
+    border-radius: 10px;
 }
 input{
     display: inline-block;  
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 ul{
     list-style: none;
@@ -25,4 +31,13 @@ li{
 .tables{
     display: flex;
     justify-content: space-around;
+}
+h1{
+    font-size: 32px;
+    text-align: center;
+
+}
+.add-btn{
+    width: 100%;
+    margin-top: 15px;
 }

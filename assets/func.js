@@ -16,7 +16,7 @@ form.addEventListener('submit', function handleForm(event){
     
     document.getElementById('price').value = "";
     document.getElementById('dish').value = "";
-    document.getElementById('tablenumber').value = "";
+    document.getElementById('tablenumber').value = "table1";
 
 
 })
